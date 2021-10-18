@@ -18,11 +18,11 @@ describe("HomePage Search Scenario", () => {
 
   it("Search for hotels in main page", async () => {
     console.log("\nSearch for hotels in main page");
-    await homePage.addPeopleAndBedrooms();
-    await browser.sleep(2000);
-    await homePage.enterLocation();
-    await homePage.enterDates();
-    await browser.sleep(2000);
-    await searchResults.verifyPropertyTypeSection();
+     await homePage.addPeopleAndBedrooms();
+      browser.sleep(2000);
+     await homePage.enterLocation();
+     await homePage.enterDates();
+      browser.sleep(2000);
+     await searchResults.verifyPropertyTypeSection();
   });
 });

@@ -39,7 +39,7 @@ There are 2 scenarios which are part of 2 Spec files.
 
 4. On a NEW terminal, clone the Automation project to your local machine
 
-   - git clone /https://github.com/pavank2/ProtractorSuite.git
+   - git clone https://github.com/pavank2/ProtractorSuite.git
 
 5. Navigate to the Project folder and install the dependencies (already part of package.json)
 

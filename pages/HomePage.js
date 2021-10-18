@@ -69,9 +69,9 @@ class HomePage {
 
   enterDates = async () => {
     await this.calendarStartDate.click();
-    await browser.sleep(1000);
+     browser.sleep(1000);
     await this.calendarEndDate.click();
-    await browser.sleep(2000);
+     browser.sleep(2000);
   };
 }
 
