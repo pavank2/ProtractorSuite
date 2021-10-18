@@ -1,0 +1,20 @@
+{
+  "app": {
+    "url": "http://holidu.de"
+  },
+  "travelDetails": {
+    "monthOfTravel": "November 2021",
+    "dates"  : {
+      "start": "1",
+      "end": "7"
+    },
+    "noOfAdults" : "4",
+    "noOfChildren":"1",
+    "noOfBedrooms":"2"
+  },
+  "searchFilters":{
+    "propertyType": "Chalet",
+    "priceRange"  : [0,300],
+    "amenities" : "TV"
+  }
+}
