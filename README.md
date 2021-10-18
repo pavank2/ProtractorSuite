@@ -1,4 +1,4 @@
-# Javascript Automation
+# Protractor Suite
 
 ## Summary
 
@@ -8,11 +8,10 @@
 
 ## Scenarios
 
-There are 3 scenarios which are part of 3 Spec files. Total tests are 6.
+There are 2 scenarios which are part of 2 Spec files.
 
-- LoginPageTest.spec.js : Logs in to the website and logs out
-- HomePageTest.spec.js : Logs in, adds item to cart and removes item from cart
-- E2EPurchase.spec.js : Logs in and completes the E2E Purchase flow
+- HomePageTest.spec.js : On Holidu Hoempage search bar, adds location, dates and no. of people and searches for property 
+- SearchResultsPage.spec.js : Starts again from home page, applies multiple filters on the search results and selects the first property
 
 - Note: "Sleep" function is added in few of the steps to slow down execution for demo purposes.
 ## Recommended Configuration
@@ -40,11 +39,11 @@ There are 3 scenarios which are part of 3 Spec files. Total tests are 6.
 
 4. On a NEW terminal, clone the Automation project to your local machine
 
-   - git clone https://github.com/pavank2/JavascriptAutomation.git
+   - git clone /https://github.com/pavank2/ProtractorSuite.git
 
 5. Navigate to the Project folder and install the dependencies (already part of package.json)
 
-   - cd JavascriptAutomation
+   - cd ProtractorSuite
    - npm init (Go with the default values)
    - npm install
      (You might have to run "npm i --save-dev @types/node" if any dependencies are not resolved)
@@ -57,4 +56,4 @@ There are 3 scenarios which are part of 3 Spec files. Total tests are 6.
 
 8. HTML report of the latest execution can be seen at {PROJECT_HOME}/reports/report.html
 
-If something is not working, please feel free to contact me :-)
+If something doesn't work, please feel free to contact me :-)
