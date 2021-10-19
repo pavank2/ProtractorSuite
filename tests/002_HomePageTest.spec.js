@@ -24,6 +24,7 @@ describe("HomePage Search Scenario", () => {
      await homePage.enterLocation();
      await homePage.enterDates();
      await browser.sleep(2000);
-     await searchResults.verifyPropertyTypeSection();
+     await searchResults.verifyPropertyTypeSection();  //Verify if successfully navigated to search results page
+     await searchResults.verifySearchInputsInResultsPage();
   });
 });
