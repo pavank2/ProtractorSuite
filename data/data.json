@@ -14,7 +14,7 @@
   },
   "searchFilters":{
     "propertyType": "Chalet",
-    "priceRange"  : [0,300],
+    "priceRange"  : [0,270],
     "amenities" : "TV"
   }
 }
