@@ -11,7 +11,7 @@
 There are 2 scenarios which are part of 2 Spec files.
 
 - HomePageTest.spec.js : On Holidu Hoempage search bar, adds location, dates and no. of people and searches for property 
-- SearchResultsPage.spec.js : Starts again from home page, applies multiple filters on the search results and selects the first property
+- SearchResultsPage.spec.js : Starts again from home page, applies multiple filters on the search results and selects the first property available. Filters applied are Property Type:Chalet, Price Range: 0 - 270, Amenities: TV
 
 - Note: "Sleep" function is added in few of the steps to slow down execution for demo purposes.
 ## Recommended Configuration
@@ -52,7 +52,7 @@ There are 2 scenarios which are part of 2 Spec files.
 
    - npm run tests
 
-7. On the command prompt, notice the tests executing (passed test/spec is represented with a dot ".")
+7. On the command prompt, notice the tests executing (passed test/spec is represented with a green dot ".")
 
 8. HTML report of the latest execution can be seen at {PROJECT_HOME}/reports/report.html
 

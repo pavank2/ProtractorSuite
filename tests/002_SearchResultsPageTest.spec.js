@@ -7,6 +7,8 @@ const SearchResultsPage = require("../pages/SearchResultsPage");
 
 /**
  * Summary: This scenario applies search filters to published Search Results
+ * Starts again from home page, applies multiple filters on the search results and selects the first property available. 
+ * Filters applied are - Property Type:Chalet, Price Range: 0 - 270, Amenities: TV
  */
 
 describe("Select filters scenario", () => {
