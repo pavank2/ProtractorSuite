@@ -8,13 +8,8 @@ class HomePage {
   cookies = element(By.xpath("//button[./text()='Akzeptieren']"));
   searchBar = element(By.xpath("//input[@type='text']"));
   personPicker = element(By.xpath("//button[contains(@class,'personPicker')]"));
-  ageOfChild = element(
-    By.xpath("//select[starts-with(@class,'ml-auto')]//option[@value='1']")
-  );
-
+  ageOfChild = element(By.xpath("//select[starts-with(@class,'ml-auto')]//option[@value='1']") );
   confirmPersons = element(By.xpath("//button[contains(@class,'PersonPickerApplyButton')]"));
-  // startDate = element(By.xpath("//div[contains(text(),'Anreise')]"));
-  // endDate = element(By.xpath("//div[contains(text(),'Abreise')]"));
   calendarStartDate = element(
     By.xpath("//div[contains(text(),'"+data.travelDetails.monthOfTravel+"')]/parent::div//div[text()='"
     +data.travelDetails.dates.start+"']"));
@@ -69,9 +64,9 @@ class HomePage {
 
   enterDates = async () => {
     await this.calendarStartDate.click();
-     browser.sleep(1000);
+    await browser.sleep(1000);
     await this.calendarEndDate.click();
-     browser.sleep(2000);
+    await browser.sleep(2000);
   };
 }
 

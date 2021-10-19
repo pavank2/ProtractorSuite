@@ -8,7 +8,7 @@ const SearchResultsPage = require("../pages/SearchResultsPage");
 
 describe("Select filters scenario", () => {
   beforeAll(async () => {
-    console.log("\nScenario 2:\n");
+    console.log("\nSearch Results Page Scenario Preconditions");
     await browser.get(data.app.url);
     await browser.driver.manage().window().maximize();
     await browser.sleep(2000); // Adding sleep to slow down execution for the demo
@@ -19,7 +19,7 @@ describe("Select filters scenario", () => {
   });
 
   it("Verify Filter Options in Search Results Page",async () => {
-    console.log("\nTest : Verify Search Results filters");
+    console.log("\nTest : Search Results filters\n");
     await searchResults.selectPropertyType();
     await browser.sleep(2000);
     await browser.actions().mouseMove(searchResults.tv).perform();
