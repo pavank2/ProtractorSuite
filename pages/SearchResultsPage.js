@@ -41,7 +41,6 @@ class SearchResultsPage {
 
   selectPriceRange = async () => {
     await browser.wait(EC.visibilityOf(element(By.xpath("//div[@style='left: 204px;']")), 5000));
-
     await element
       .all(By.xpath("//div[contains(@class,'RangeSliderHandle')]"))
       .then(function (sliders) {
@@ -59,7 +58,6 @@ class SearchResultsPage {
   clickOnSelectedProperty = async () => {
     await this.selectProperty.click();
     browser.sleep(2000);
-
   };
 }
 
