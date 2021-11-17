@@ -10,7 +10,7 @@
 
 There are 2 scenarios which are part of 2 Spec files.
 
-- HomePageTest.spec.js : On Holidu Hoempage search bar, adds location, dates and no. of people and searches for property 
+- HomePageTest.spec.js : On Homepage search bar, adds location, dates and no. of people and searches for property 
 - SearchResultsPageTest.spec.js : Starts again from home page, applies multiple filters on the search results and selects the first property available. Filters applied are Property Type:Chalet, Price Range: 0 - 270, Amenities: TV
 
 - Note: "Sleep" function is added in several steps to slow down execution for demo purposes.
